@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-box{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+.c{
+    color: rgb(0, 183, 255);
+}
+.h{
+    color: rgba(245, 11, 11, 0.842);
+}
+.i{
+    color: yellow;
+}
+.e{
+    color: green;
+}
+
+.c, .h, .i, .e{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+.zero{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 3%;
+    margin-left: 95%;
+    background-color: rgb(2, 31, 2);
+    color: white;
+    
+    margin-top: -50px;
+}
+.oh{
+    padding: 10px 15px;   
+}
+
+
+.border-container{
+    width: 1140px;
+    height: 40px;
+    border: 1px solid rgb(160, 136, 136);
+    display: flex;
+    margin: 0,auto;
+    gap: 20px;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 30px;
+}
+
+.search-input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.list1, .main-nav, li{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.main-nav, a{
+    text-decoration: none;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.main-nav, a:active,
+.main-nav, a:hover{
+    transition: 0.2s;
+    color: red;
+}
+
+.name{
+    padding-top: 5px;
+    color: rgb(61, 59, 59);
+}
+
+
+.photos{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
+.row, img{
+    width: 100%;
+
+}
+
+.row{
+    border: 1px transparent gray;
+    border-radius: 30px;
+    
+}
+.box{
+    border: 1px solid red;
+    width: 15%;
+    background-color: red;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.btn{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 30px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 200px;
+    width: 10%;
+    background-color: rgb(212, 212, 245);
+    color: blue;
+
+}
+
+.btn:hover,
+.btn:active{
+    background-color: rgb(212, 212, 245);
+    border: 1px solid blue;
+    transition: 0.2s;
+}
+
+.about{
+    background-color: rgb(206, 192, 192);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.intro{
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+i{
+    color: rgb(113, 113, 201);
+}
+
+
+ 
